@@ -1,21 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-  
-html {
-	background: 
-		/* radial-gradient(farthest-side at top right, #2d3047 98%, #0000)
-			calc(50% - 10px) 0/20px 20px no-repeat,
-		radial-gradient(farthest-side at bottom right, #2d3047 98%, #0000)
-			calc(50% - 10px) 100%/20px 20px no-repeat,
-		linear-gradient(90deg, #f5e9e2 50%, #1e90ff 0) !important; */
-}
-
 body {
 	margin: 0;
+    font-family: 'Courier New', sans-serif;
 }
-
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
 .App {
     text-align: left;
-    font-family: Open Sans, Helvetica !important;
     padding: 40px;
     min-height: 2000px;
   }
