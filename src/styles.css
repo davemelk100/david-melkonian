@@ -32,9 +32,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin-right: 0;
-    margin-bottom: 15px;
     border: 1px solid #f3b95d;
-    border-radius: 10px;
     padding: 15px 15px 8px 15px;
     background: #f3b95d;
   }
@@ -50,7 +48,6 @@ body {
     border: 1px solid #d4c0a9;
     padding: 15px 15px 8px 15px;
     background: #d4c0a9;
-    border-radius: 10px;
   }
   
   .samples-links ul li,
@@ -58,7 +55,7 @@ body {
     list-style: none;
     display: inline-flex;
     list-style: none;
-    margin: 0 10px 10px 0;
+    margin: 0 15px 10px 0;
     font-size: 14px;
     white-space: nowrap;
   }
@@ -138,15 +135,10 @@ body {
   }
   
   .App-grid-header {
-    display: inline-flex;
-    flex-direction: column;
-    margin-bottom: 15px;
     border: 3px solid #D4A7BD;
     background-color: #D4A7BD;
     padding: 10px 10px 0px 15px;
-    border-radius: 10px;
-    width: 66%;
-    color: black
+        color: black
   }
   
   
