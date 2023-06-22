@@ -10,7 +10,10 @@ body {
     padding: 40px;
     min-height: 2000px;
   }
-  
+  .samples h3,
+  .contact h3 {
+      color: white;
+  }
   .samples-links,
   .contact-links {
     margin-bottom: 20px;
@@ -21,24 +24,23 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    margin-right: 0;
-    border: 1px solid #f3b95d;
-    padding: 15px 15px 8px 15px;
-    background: #f3b95d;
+    flex-direction: row;
+    padding: 5px;
+    background: black;
   }
   
   .samples-links ul.contact {
-    padding: 0;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
-    border: 1px solid #d4c0a9;
-    padding: 15px 15px 8px 15px;
-    background: #d4c0a9;
+    flex-direction: row;
+    padding: 5px;
+    background: black;
   }
   
   .samples-links ul li,
@@ -46,7 +48,7 @@ body {
     list-style: none;
     display: inline-flex;
     list-style: none;
-    margin: 0 15px 10px 0;
+    margin: 5px 10px;
     font-size: 14px;
     white-space: nowrap;
   }
@@ -55,8 +57,9 @@ body {
   .contact-links ul li a {
     text-decoration: none;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 4px;
+    color: white;
   }
   
   #root {    
@@ -126,10 +129,10 @@ body {
   }
   
   .App-grid-header {
-    border: 3px solid #D4A7BD;
+    /* border: 3px solid #D4A7BD;
     background-color: #D4A7BD;
-    padding: 10px 10px 0px 15px;
-        color: black
+    padding: 10px 10px 0px 15px; */
+    color: black
   }
   
   
@@ -167,18 +170,23 @@ body {
     font-size: 16px;
     margin: 0;
     display: inline-flex;
-    padding-top: 5px;
   }
   
   p {
     margin: 0 0 20px;
   }
   
-  
-  
-  @media only screen and (min-width: 855px) {
+  .nav-title {
+    font-size: 28px;
   }
   
-  @media only screen and (min-width: 990px) {
-  
+  @media (max-width: 575.98px) {
+       
+  .samples-links ul.samples,
+  .samples-links ul.contact {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   }
