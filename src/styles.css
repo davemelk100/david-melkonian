@@ -3,11 +3,13 @@ html {
 }
 body {
 	margin: 0;
-    font-family: 'Courier New', sans-serif;
+  font-family: 'Quattrocento', serif !important;
 }
 .h1, .h2, .h3, .h4, h1, h2, h3, h4 {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
 }
+
 .App {
     text-align: left;
     padding: 40px;
@@ -160,19 +162,23 @@ body {
   }
   
   h1 {
-    font-size: 28px;
-    margin: 0;
+    font-size: 40px !important;
+    font-weight: 900 !important;
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
   }
   
   h2 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 32px !important;
+    font-weight: 900 !important;
+    margin-bottom: 15px !important;
   }
   
   h3 {
-    font-size: 16px;
+    font-size: 22px !important;
     margin: 0;
     display: inline-flex;
+    font-weight: 900 !important;
   }
   
   p {
@@ -180,9 +186,10 @@ body {
   }
   
   .nav-title {
-    font-size: 28px;
+    font-size: 40px !important;
+    font-weight: 900;
+    padding-bottom: 0 !important;
   }
-  
   @media (max-width: 575.98px) {
        
   .samples-links ul.samples,
